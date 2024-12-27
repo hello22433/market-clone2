@@ -24,10 +24,26 @@ body footer {
   cursor: pointer;
 }
 
+@keyframes icons-doong-doong {
+  0% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(2px);
+  }
+}
+
 .footer-icons__img {
   width: 40px;
 }
 
-.footer-icons__desc {
+.footer-icons__img:hover {
+  animation: 2s icons-doong-doong infinite;
+}
+
+.footer-icons:hover .footer-icons__desc {
   margin-top: 5px;
 }
