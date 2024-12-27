@@ -3,6 +3,11 @@
 @import "main.css";
 @import "footer.css";
 
+:root {
+  --button-primary: #fac532;
+  --button-hover: antiquewhite;
+}
+
 body {
   font-family: "Noto Sans KR", serif;
 }
