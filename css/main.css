@@ -54,7 +54,7 @@ main {
 }
 
 .write-btn {
-  background-color: #fac532;
+  background-color: var(--button-primary);
   color: white;
   border-radius: 50px;
   display: flex;
@@ -72,5 +72,5 @@ main {
 }
 
 .write-btn:hover {
-  background-color: antiquewhite;
+  background-color: var(--button-hover);
 }
