@@ -1,0 +1,31 @@
+@import "reset.css";
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+:root {
+  --button-primary: #fac532;
+  --button-hover: antiquewhite;
+}
+
+body {
+  font-family: "Noto Sans KR", serif;
+}
+
+.media-info-msg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: salmon;
+}
+
+@media screen and (max-width: 700px) {
+  .media-info-msg {
+    display: none;
+  }
+}
